@@ -3,7 +3,7 @@ var Repo = require('../models/repo');
 var ReposController = {
     //get '/'
     index: function(req, res) {
-        res.render('index');
+        res.render('repos/index.ejs');
     },
 
     //get '/search'

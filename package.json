@@ -25,12 +25,13 @@
   "dependencies": {
     "ejs": "^2.3.4",
     "express": "^4.13.3",
-    "github": "^0.2.4"
+    "github": "^0.2.4",
+    "npm": "^6.0.0"
   },
   "devDependencies": {
     "del": "^2.2.0",
     "event-stream": "^3.3.2",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.0",
     "gulp-gh-pages": "^0.5.4",

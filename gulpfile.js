@@ -119,7 +119,7 @@ gulp.task('watch', function() {
 
 //Html
 gulp.task("html",  ['clean'], function() {
-    gulp.src('./app/views/index.ejs')
+    gulp.src('./app/views/repos/index.ejs')
         .pipe(processhtml())
         .pipe(gulp.dest(settings.destFolder))
 })

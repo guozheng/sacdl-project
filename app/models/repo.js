@@ -42,7 +42,7 @@ var Repo = {
 }
 
 // from /public/js/utils.js
-function treeData(data) {
+function treeData(dataSet) {
     var languages = {};
 
     var result = {
