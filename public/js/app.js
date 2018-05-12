@@ -32,13 +32,19 @@
         }, 300);
 
         url = url || 'http://localhost:3000/search';
+        console.log("********* url: ");
+        console.log(url);
 
         d3.json(url, function(err, data) {
             if (err) {
                 clearTimeout(loader);
                 loading.style.display = "none";
-                alert("加载数据失败，请检查您的网络设置。")
-            };
+                alert("加载数据失败，请检查您的网络设置。");
+                return;
+            }
+
+            console.log("==============");
+            console.log(data);
 
             Utils.getData(data);
 
